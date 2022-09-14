@@ -42,7 +42,7 @@ nav li:hover{
         display: flex;
         justify-content: flex-end;
     }
-}
+/*Contenidos de velásquez*/
 .title{
     color:white;
     text-align: center;
@@ -64,12 +64,17 @@ nav li:hover{
 .producto{
     padding: 20px;   
 }
-.dash.flexbox{
+.dash-flexbox{
+    justify-content: center;
+    align-items: center;
     display:flex;
     flex-direction:row;
+    margin: 25px;
     text-align: center;
 }
-.dash.flexbox2{
+.dash-flexbox2{
+    justify-content: center;
+    align-items: center;
     display:flex;
     flex-direction:row;
     text-align: center;
@@ -83,6 +88,7 @@ nav li:hover{
 .dash1{
     display: flex;
     flex-direction: row;
+    margin: 25px;
 }
 .container{
     padding: 50px;
